@@ -20,7 +20,7 @@
        </div>
        <div>
          <label for="docNumber">Número do documento</label>
-         <input type="text" id="docNumber" data-checkout="docNumber" placeholder="19119119100" />
+         <input type="text" id="docNumber" data-checkout="docNumber" placeholder="24283661813" />
        </div>
      </div>
    <h3>Detalhes do cartão</h3>
@@ -39,7 +39,7 @@
        </div>
        <div>
          <label for="cardNumber">Número do cartão</label>
-         <input type="text" id="cardNumber" data-checkout="cardNumber" placeholder="4509 9535 6623 3704" onselectstart="return false" onpaste="return false" onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false" autocomplete=off />
+         <input type="text" id="cardNumber" data-checkout="cardNumber" placeholder="4357 6064 1502 1810" onselectstart="return false" onpaste="return false" onCopy="return false" onCut="return false" onDrag="return false" onDrop="return false" autocomplete=off />
        </div>
 		 <div class="brand"></div> 
        <div>
@@ -63,6 +63,7 @@
     </form>
 	
 	<script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js"></script>
+  <script src="https://www.mercadopago.com/v2/security.js" paulistar="home"></script>
 	<script src="lib/js/javascript.js"></script>
 </body>
 </html>
